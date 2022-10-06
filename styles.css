@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Amatic;
+    src: url("fonts/Amatic_SC/AmaticSC-Bold.ttf");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background:-webkit-linear-gradient( to left top, #525240, #c7c969);
+    background:-moz-linear-gradient( to left top, #525240, #c7c969);
+    background:-ms-linear-gradient( to left top, #525240, #c7c969);
+    background:-o-linear-gradient( to left top, #525240, #c7c969);
+    background:linear-gradient( to left top, #525240, #c7c969);
+}
+
+
+h1 {
+    font-family: Amatic;
+    font-size: 150px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    border: none;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.button-positive {
+    height: 42px;
+    width: 60px;
+    border: none;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-positive:hover {
+    background-color:rgb(5, 192, 183);
+}
+
+.button-negative:hover {
+    background-color: rgb(211, 41, 78) ;
+}
+
+.button-negative {
+    height: 42px;
+    width: 60px;
+    border: none;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    background-color: rgb(216, 75, 105);
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-clear {
+    height: 42px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    background-color: rgb(214, 176, 71);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.button-clear:hover {
+    background-color: rgb(207, 156, 14);
+}
+
+.header-section {
+    margin: 20px 100px;
+}
+
+.input-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} 
+
+
+ul li {
+    width: 500px;
+    font-family: Inter;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    border: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ 
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+
+ul li:hover {
+    background: #ddd;
+}
+
+
+
+  
